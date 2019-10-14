@@ -18,7 +18,7 @@ Visos Funkcijos patikrinamos su try{}catch(){} metodu, ar jos praeina be klaidos
 Programa įrašoma komanda:
 
 `composer install`
-Kodas paleidžiamas komandas:
+<br />Kodas paleidžiamas komandas:
 
 `php index.php`
 
