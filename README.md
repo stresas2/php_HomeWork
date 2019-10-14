@@ -16,6 +16,5 @@ Atlieka tapatį veiksmą kaip ir trečioji funkcija, bet turi Strict derektyva. 
 <br />
 Visos Funkcijos patikrinamos su try{}catch(){} metodu, ar jos praeina be klaidos.<br />
 Kodas paleidžiamas komandas:
-
  `git checkout -b my-new-feature`
 
