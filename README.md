@@ -15,9 +15,7 @@ direktyva</b> <br />
 Atlieka tapatį veiksmą kaip ir trečioji funkcija, bet turi Strict derektyva. Su Strict derektyva nebeįmanoma paversti "String" tipo į "integer" tipą, jeigu prieštai string "1" galėjo atitikti integer 1 tai su Strict derektyva tai nebeleidžiama, bet kadangi Strict derektyva yra tik funkcijos aprašymo faile, kur argumente patikrinama ar tai gali būtų argumentai integer tipo, jai jie gali būti paverčiami tuomet jie paverčiami ir funkcija tęsiama be klaidos. Jeigu Strict direktyva butū index.php faila kuomet funkcija yra iškviečiama ir jos argumentuose nusiunčiami String ar Float tipo duomenys o aprašoma, kad reikia integer, išmestų klaidą.
 <br />
 Visos Funkcijos patikrinamos su try{}catch(){} metodu, ar jos praeina be klaidos.<br />
-Programa įrašoma komanda:
-
-`composer install`
+Programa įrašoma komanda: `composer install`
 <br />Kodas paleidžiamas komandas:
 
 `php index.php`
