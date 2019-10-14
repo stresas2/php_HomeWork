@@ -1,0 +1,12 @@
+{
+    "name": "lukas/homework",
+    "require": {
+        "php": "^7.0.0",
+        "league/climate": "^3.5"
+    },
+    "autoload": {
+        "files": [
+            "src/NotTyped.php", "src/Soft.php", "src/Strict.php"
+        ]
+    }
+}
