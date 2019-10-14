@@ -12,6 +12,6 @@ Atlieka tapatį veiksmą kaip ir pirmoji funkcija, tiesiog gražinamas rezultata
 Atlieka tapatį veiksmą kaip ir antroji funkcija, bet argumentai šiuo atveju apibrėžti, kaip "integer" tipo, jeigu, bet vienas nėra "integer" tipo ir nėra galimybės jo paversti į tokį tipą išmetą error.
 * <b>4 Funkcija - "calculateHomeWorkSum(int…$numbers): int;" su declare(strict_types=1)
 direktyva</b> <br />
-Atlieka tapatį veiksmą kaip ir trečioji funkcija, bet turi strict derektyva. Su Strict derektyva nebeįmanoma paversti "String" tipo į "integer" tipą, jeigu prieštai string "1" galėjo atitikti integer 1 tai su Strict derektyva tai nebeleidžiame, bet kadangi Strict derektyva yra tik funkcijos aprašymo faile, kur argumentę patikrinama ar tai gali būtų argumentai integer tipo, kuomet jai jie gali būti paverčiami tuomet gražinimas rezultatas be klaidos, priešingu atveju jeigu Strict direktyva butū index.php faila kuomet funkcija yra iškviečiama ir jos argumentuose nusiunčiami String tipo duomenys o aprašoma, kad reikia integer, išmestų klaidą.
-
-
+Atlieka tapatį veiksmą kaip ir trečioji funkcija, bet turi Strict derektyva. Su Strict derektyva nebeįmanoma paversti "String" tipo į "integer" tipą, jeigu prieštai string "1" galėjo atitikti integer 1 tai su Strict derektyva tai nebeleidžiama, bet kadangi Strict derektyva yra tik funkcijos aprašymo faile, kur argumente patikrinama ar tai gali būtų argumentai integer tipo, jai jie gali būti paverčiami tuomet jie paverčiami ir funkcija tęsiama be klaidos. Jeigu Strict direktyva butū index.php faila kuomet funkcija yra iškviečiama ir jos argumentuose nusiunčiami String ar Float tipo duomenys o aprašoma, kad reikia integer, išmestų klaidą.
+<br />
+Visos Funkcijos patikrinamos su try{}catch(){} metodu, ar jos praeina be klaidos.
