@@ -7,7 +7,7 @@ Namų darbas susideda 4 funcijų tuo pačiu pavadinimu (calculateHomeWorkSum()),
 * 1 Funkcija - "calculateHomeWorkSum(…$numbers)" <br />
 Funkcija sudedata kiekviena "Array" elementą ir išpausdiną rezultatą į konsolę kartu su funkcijos vardu;
 * 2 Funkcija - "calculateHomeWorkSum(…$numbers): int" <br />
-Atlieka tapatį veiksmą kaip ir pirmoji funkcija, tiesiog gražinamas rezultatas būtinai būna "integer" tipo, priešingu atveju išmeta pranešima, kad atveju jeigu resultatas yra ne integer tipo išmetą pranešimą.
+Atlieka tapatį veiksmą kaip ir pirmoji funkcija, tiesiog gražinamas rezultatas būtinai būna "integer" tipo, priešingu atveju išmeta pranešima, kad rezultatas yra ne integer tipo išmetą pranešimą.
 * 3 Funkcija - "calculateHomeWorkSum(int…$numbers): int;" <br />
 Atlieka tapatį veiksmą kaip ir antroji funkcija, bet argumentai šiuo atveju apibrėžti, kaip "integer" tipo, jeigu, bet vienas nėra "integer" tipo ir nėra galimybės jo paversti į tokį tipą išmetą error.
 * 3 Funkcija - "calculateHomeWorkSum(int…$numbers): int;" su declare(strict_types=1)
