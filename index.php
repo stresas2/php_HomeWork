@@ -26,6 +26,6 @@ try{
     echo $consoleColor->apply('bold', calculateHomeWorkSum3(3, 2.2, '1')) . "\n";
     echo $consoleColor->apply('bold', calculateHomeWorkSum4(3, 2.2, '1')) . "\n";
 }catch(\Throwable $e){
-    echo "klaida" . "\n";
+    echo "Klaida funkcijose!" . "\n";
     echo $e->getMessage();
 }
