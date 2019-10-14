@@ -19,3 +19,4 @@ Kodas paleidžiamas komandas:
 ```
 php index.php
 ```
+`git checkout -b my-new-feature`
