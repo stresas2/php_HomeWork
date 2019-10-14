@@ -2,7 +2,7 @@
     "name": "lukas/homework",
     "require": {
         "php": "^7.0.0",
-        "league/climate": "^3.5"
+        "jakub-onderka/php-console-color": "^0.2.0"
     },
     "autoload": {
         "files": [
