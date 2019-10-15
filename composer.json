@@ -1,5 +1,16 @@
 {
     "name": "lukas/homework",
+    "description":":Lukas php intro homework",
+    "keywords": ["Lukas", "homework"],
+    "homepage": "https://github.com/stresas2/php_HomeWork",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+       {
+           "name": "Lukas Budrys",
+           "email": "lbudrys@inbox.lt"
+       }
+   ],
     "require": {
         "php": "^7.0.0",
         "jakub-onderka/php-console-color": "^0.2.0"
